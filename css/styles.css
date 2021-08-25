@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+body{
+    padding: 7% 10%;
+}
+
+
+ /* first section */
+
+
+
+#first{
+    margin-bottom: 100px;
+}
+
+
+.title{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    color: rgb(80, 32, 80);
+    width: 80%;
+}
+
+.title-paragraph{
+    font-family: 'Spartan-medium', sans-serif;
+    color:rgb(105, 105, 105);
+    width: 90%;
+}
+
+.row1{
+    margin-bottom: 30px;
+}
+
+.row2{
+    background-color:hsla(333, 80%, 67%, 0.082) ;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.row3{
+    background-color:hsla(333, 80%, 67%, 0.082) ;
+    margin: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 83%;
+}
+
+.row4{
+    background-color:hsla(333, 80%, 67%, 0.082) ;
+    margin: 10px;
+    position: relative;
+    left: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.star img{
+    padding: 2px;
+    text-align: right;
+}
+
+.row .row-text{
+    font-family: 'Spartan-regular', sans-serif;
+    font-weight: 400;
+    color: hsl(300, 43%, 22%) ;
+    margin-right: -80px;
+}
+
+
+
+@media(max-width:1020px){
+    .title{
+        margin-left: 40px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .title-paragraph{
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .row-text{
+        text-align: center;
+    }
+
+    .star{
+        text-align: center;
+    }
+
+    .row .row2{
+        margin-left: 40px;
+    }
+    
+    .row3{
+        width: 79%;
+        position: relative;
+        left: 60px;
+    }
+
+    .row .row4{
+        position: relative;
+        left: 60px;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* second section */
+
+
+
+
+.card .profile{
+    background-color: hsl(300, 43%, 22%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.profile-pic{
+    border-radius: 360px;
+    width: 50px;
+    float: left;
+    margin: 20px;
+    
+}
+
+.card-profile2{
+    margin-top: 30px;
+}
+
+.card-profile3{
+    margin-top: 60px;
+}
+
+.name{
+    font-family: 'Spartan', sans-serif;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.name.co-h6{
+    font-family: 'Spartan', sans-serif;
+    margin-top: 0;
+    color:hsl(300, 56%, 57%);
+}
+
+.card-body{
+    
+    margin-top: 10px;
+    color: hsl(300, 24%, 96%);
+}
+
+
+@media(max-width:1020px){
+    .card-profile2{
+        margin-top: 50px;
+    }
+}
+
+
+/* footer section */
+
+.attribution{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
